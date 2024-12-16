@@ -16,7 +16,6 @@ allprojects {
     }
 
     dependencies {
-        files(rootProject.projectDir.resolve("buildSrc/build/classes/kotlin/main"))  // FIXME: usage/implementation needs remaster
         implementation(kotlin("stdlib"))
         testImplementation(kotlin("test"))
     }
