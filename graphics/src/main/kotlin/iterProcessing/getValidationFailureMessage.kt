@@ -1,4 +1,4 @@
-package com.s12works.tellAStory.graphics.iterProcessing
+package com.s12works.tellAStory.iterProcessing
 
-public fun getValidationFailureMessage(int: TimeoutInteger): com.s12works.tellAStory.assertion.Message =
-    "TimeoutInt provided (${int}) is illegal"
+public fun getValidationFailureMessage(int: Timeout): com.s12works.tellAStory.assertion.Message =
+    "Timeout provided (${int}) is illegal"
