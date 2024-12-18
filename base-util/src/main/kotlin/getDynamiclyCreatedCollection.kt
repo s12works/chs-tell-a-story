@@ -1,7 +1,7 @@
 package com.s12works.tellAStory
 
 public fun <E: Any?, T: Any?> getDynamicallyCreatedCollection(
-    elements: Collection<E>,
+    elements: Iterable<E>,
     translator: (E) -> T
 ): Collection<T> {
     val translatedElements = mutableListOf<T>()
