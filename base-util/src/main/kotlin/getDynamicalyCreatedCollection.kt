@@ -1,6 +1,6 @@
 package com.s12works.tellAStory
 
-public fun <E: Any?, T: Any?> getDynamicallyCreatedCollection(
+public fun <E, T> getDynamicallyCreatedCollection(
     elements: Iterable<E>,
     translator: (E) -> T
 ): Collection<T> {
