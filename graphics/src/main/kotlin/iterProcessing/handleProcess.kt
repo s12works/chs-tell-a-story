@@ -1,4 +1,4 @@
-package com.s12works.tellAStory.graphics.iterProcessing
+package com.s12works.tellAStory.iterProcessing
 
 @Throws(IteratorIncompatibilityException::class)
 public fun <I> handleProcess(config: ProcessHandlerConfig<I>): Unit {

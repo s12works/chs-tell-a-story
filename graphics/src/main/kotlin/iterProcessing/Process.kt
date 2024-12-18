@@ -1,3 +1,3 @@
-package com.s12works.tellAStory.graphics.iterProcessing
+package com.s12works.tellAStory.iterProcessing
 
 public typealias Process<I> = (I) -> Unit

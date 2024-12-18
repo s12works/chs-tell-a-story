@@ -1,4 +1,4 @@
-package com.s12works.tellAStory.graphics.iterProcessing
+package com.s12works.tellAStory.iterProcessing
 
 public class IteratorIncompatibilityException internal constructor(
     public val count: Int,

@@ -1,4 +1,4 @@
-package com.s12works.tellAStory.graphics.iterProcessing
+package com.s12works.tellAStory.iterProcessing
 
 import com.s12works.tellAStory.range.contains
 import com.s12works.tellAStory.assertion.enforcers.fail
