@@ -2,7 +2,7 @@ package com.s12works.tellAStory.graphics.iterProcessing
 
 public class IteratorIncompatibilityException internal constructor(
     public val count: Int,
-    public val timeout: TimeoutInteger
+    public val timeout: Timeout
 ): Exception("iterator deemed incompatibly when processing; excecuted $count of $timeout processes") {
     override fun toString(): com.s12works.tellAStory.objectRepresentation.Translation =
         "${this::class.simpleName}(count=${this.count}, timeout=${this.timeout}"

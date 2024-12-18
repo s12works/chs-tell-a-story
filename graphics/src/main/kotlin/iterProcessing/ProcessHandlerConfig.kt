@@ -5,10 +5,10 @@ import com.s12works.tellAStory.assertion.enforcers.fail
 
 public class ProcessHandlerConfig<I> {
     public val iterator: Iterator<I>
-    public val timeout: TimeoutInteger
+    public val timeout: Timeout
     public val process: Process<I>
 
-    public constructor(iterator: Iterator<I>, timeout: TimeoutInteger, process: Process<I>) {
+    public constructor(iterator: Iterator<I>, timeout: Timeout, process: Process<I>) {
         this.iterator = iterator
         this.timeout = com.s12works.tellAStory.assertion.validated(
             getValidationFailureMessage(timeout),
